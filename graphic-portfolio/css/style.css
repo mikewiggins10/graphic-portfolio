@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+.project-card {
+  text-align: center;
+  width: 250px;
+}
+.project-card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+.project-detail {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+.project-images img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+footer {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 1rem;
+}
