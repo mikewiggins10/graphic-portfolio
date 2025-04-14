@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: graphic-portfolio
-    env: docker
-    plan: free
-    repo: https://github.com/yourusername/graphic-portfolio
-    branch: master
-    dockerfilePath: Dockerfile
